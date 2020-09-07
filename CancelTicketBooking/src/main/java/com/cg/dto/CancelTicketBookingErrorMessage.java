@@ -1,9 +1,4 @@
-package com.cg.Dto;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import com.cg.entity.Passenger;
+package com.cg.dto;
 
 public class CancelTicketBookingErrorMessage {
 

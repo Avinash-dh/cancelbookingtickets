@@ -18,7 +18,7 @@ CancelTicketBookingService bookingService;
 
 @DeleteMapping(ErrorConstants.SEARCH_URL)
 public boolean deleteBooking(@PathVariable String bookingId) throws InvalidBookingException {
-
-		return bookingService.deleteBooking(bookingId);
+	bookingService.deleteBooking(bookingId);
+	 return true;
 }
 }

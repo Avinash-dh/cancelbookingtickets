@@ -8,8 +8,8 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cg.Dao.BookingDao;
-import com.cg.Dao.ScheduleFlightDao;
+import com.cg.dao.BookingDao;
+import com.cg.dao.ScheduleFlightDao;
 import com.cg.entity.Booking;
 import com.cg.entity.ScheduledFlight;
 import com.cg.exception.InvalidBookingException;

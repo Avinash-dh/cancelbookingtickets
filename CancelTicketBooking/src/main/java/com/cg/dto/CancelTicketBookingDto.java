@@ -1,4 +1,4 @@
-package com.cg.Dto;
+package com.cg.dto;
 
 public class CancelTicketBookingDto {
 

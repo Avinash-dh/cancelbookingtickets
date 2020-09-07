@@ -6,9 +6,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import com.cg.exception.InvalidBookingException;
 
-import com.cg.Dto.CancelTicketBookingErrorMessage;
+import com.cg.dto.CancelTicketBookingErrorMessage;
+import com.cg.exception.InvalidBookingException;
 
 @RestControllerAdvice
 public class RestAdvice {
