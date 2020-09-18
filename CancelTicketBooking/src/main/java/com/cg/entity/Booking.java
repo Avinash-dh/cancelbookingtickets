@@ -29,8 +29,6 @@ public class Booking {
 	private double fare;
 	@Column(name="booking_status")
 	private String bookingStatus;
-	
-	
 	public String getBookingStatus() {
 		return bookingStatus;
 	}
